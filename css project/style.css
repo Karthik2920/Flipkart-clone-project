@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    
+}
+nav p{
+    color: white;
+    font-family: 'Moon Dance', cursive;
+    font-size: 43px;
+    padding: 10px;
+}
+ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+}
+.search{
+    
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 328px;
+    margin: 0 12px 0 112px;
+    height: 25px;
+    
+}
+.button{
+    height: 23px;
+    width: 90px;
+    padding: 2px;
+    cursor: pointer;
+}
+header{
+    height: 10vh;
+    background-color: lightseagreen;
+}
+.container{
+    
+    min-height: calc(100vh - 10vh - 10vh);
+    background-color:#f0f0f0;
+    
+}
+.slider{
+    width: 90vw;
+    margin: 12px auto;
+}
+.heading{
+    max-width: 96vw;
+        margin: auto;
+    height: 45px;
+    background-color: white;
+}
+.items{
+    display: flex;
+    background-color: white;
+        max-width: 96vw;
+        margin: 4px auto;
+}
+.products{
+        display:inline-flex;
+        background-color: white;
+        max-width: 96vw;
+        margin: 4px auto;
+        flex-direction: column;
+}
+footer{
+    height: 10vh;
+    background-color: lightseagreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
